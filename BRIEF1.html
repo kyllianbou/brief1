@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>formulaire d'inscription</title>
+    </head>
+    <body>
+        <form>
+            <label for="usager">nom :</label>
+            <input id="usager" type="text" required placeholder="entrez votre nom" />
+        <p>
+            <label for="usager">prenom :</label>
+            <input type="text" placeholder="entrez votre prenom" >
+           </p>
+        <p>
+            Quelle est votre date de naissance ?<br/>
+            <input type="date" />
+        </p>
+        <p>votre ages ? :
+            <input placeholder="20" pattern="[0-9]{1,2}" ></p>
+            
+            <p>Sexe:</p>
+
+            <div>
+              <input type="radio" id="masculin" name="drone" value="masculin"
+                     checked>
+              <label for="masculin">masculin</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="feminin" name="drone" value="feminin">
+              <label for="feminin">feminin</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="transgenre" name="drone" value="transgenre">
+              <label for="transgenre">transgenre</label>
+            </div>
+
+        <p>
+            quel est votre departement ?:<br/>
+
+        <select id="departement" size="1" >
+            <option value="">haut de france</option>
+            <option value="2">paris</option>
+            <option value="4">dordogne</option>
+            <option value="1">jura</option>
+            <option value="3">oise</option>
+            <option value="5">rhone</option>
+            <option value="6">val-de-marne </option>
+        </select></p>
+
+        <p>ville :
+            <input placeholder="Paris" pattern="[a-z]"></p>
+
+            <p>code postal :
+                <input placeholder="59300" pattern="[0-9]{5}"></p>
+
+            <p>adresse postale :
+                <input placeholder="23 rue de l'humanite" ></p>
+
+        <p>tel :
+        <input type="tel" placeholder="0685677584" pattern="[0-9]{10}"></p>
+
+        <p><label for="email">
+            Votre email :
+            <input type="email" id="email" name="email" autocomplete="email" aria-required="true" aria-invalid="true" placeholder="exemple.mul@internet.fr" />
+            <span>Veuillez respecter le format de l'email (exemple@domaine.fr)</span>
+         </label></p> 
+
+         <p>
+            metier exercer :<br/>
+
+        <select size="1" >
+            <option value="">developeur web</option>
+            <option value="2">fonctionnaire</option>
+            <option value="4">professeur</option>
+            <option value="1">programateur</option>
+            <option value="3">technitien</option>
+            <option value="5">geographe</option>
+            <option value="6">historien </option>
+        </select></p>
+         
+        <p>
+            nationaliter :<br/>
+
+        <select size="1" >
+            <option value="">francais</option>
+            <option value="2">algerien</option>
+            <option value="4">marocain</option>
+            <option value="1">tunisien</option>
+            <option value="3">italien</option>
+            <option value="5">espagnol</option>
+            <option value="6">americain </option>
+        </select></p>
+
+                <p>Pays de naissance :
+                    <input placeholder="france" pattern="[a-z]"></p>
+
+                    <p>numero de securite social :
+                        <input placeholder="049957366475" pattern="[0-9]{15}"></p>
+
+            <p> numero du passeport :
+                <input placeholder="ex" ></p>
+
+                <p>Date de delivrance du passeport :
+                    <input type="date" /></p>
+
+            <p>date de validite du passeport :
+                <input type="date" /></p>
+                   
+
+
+
+
+            <div class="controls">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Sign in"></div>
+            </form>
+</body>
+
+
+
+
+
+
+
